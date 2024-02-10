@@ -1,0 +1,14 @@
+openaiAPI.py
+API_file.py
+*.pyc
+test.wav
+fletproject
+openai.txt
+build/*
+dist/*
+API_file.py
+Zuntalking.spec
+__pycache__/*
+assets/*
+*.spec
+config/default.bin

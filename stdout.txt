@@ -1,0 +1,572 @@
+2023-10-26 13:42:05.370161
+何か話してください...
+マイクオフ
+2023-10-26 13:49:34.298332
+2023-11-02 15:09:49.120939
+Unhandled error processing page session : Traceback (most recent call last):
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\flet_runtime\app.py", line 359, in on_session_created
+    session_handler(page)
+  File "C:\Users\yu033\Documents\Github\ZunTalking\main_flet.py", line 28, in main
+    p_route : page_route = page_route(page)
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\Documents\Github\ZunTalking\page_route.py", line 25, in __init__
+    self.avatar_list.append(Slot(item[1]))
+                            ^^^^^^^^^^^^^
+  File "C:\Users\yu033\Documents\Github\ZunTalking\avatar\slot.py", line 19, in __init__
+    self.avatar_name = slot["CHARA"]["name"]
+                       ~~~~^^^^^^^^^
+  File "C:\Users\yu033\AppData\Local\Programs\Python\Python311\Lib\configparser.py", line 979, in __getitem__
+    raise KeyError(key)
+KeyError: 'CHARA'
+
+2023-11-02 15:10:26.669910
+Unhandled error processing page session : Traceback (most recent call last):
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\flet_runtime\app.py", line 359, in on_session_created
+    session_handler(page)
+  File "C:\Users\yu033\Documents\Github\ZunTalking\main_flet.py", line 28, in main
+    p_route : page_route = page_route(page)
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\Documents\Github\ZunTalking\page_route.py", line 25, in __init__
+    self.avatar_list.append(Slot(item[1]))
+                            ^^^^^^^^^^^^^
+  File "C:\Users\yu033\Documents\Github\ZunTalking\avatar\slot.py", line 19, in __init__
+    self.avatar_name = slot["CHARA"]["name"]
+                       ~~~~^^^^^^^^^
+  File "C:\Users\yu033\AppData\Local\Programs\Python\Python311\Lib\configparser.py", line 979, in __getitem__
+    raise KeyError(key)
+KeyError: 'CHARA'
+
+2023-11-02 15:11:10.333367
+Unhandled error processing page session : Traceback (most recent call last):
+  File "C:\Users\yu033\AppData\Local\Programs\Python\Python311\Lib\site-packages\flet\flet.py", line 316, in on_session_created
+    session_handler(page)
+  File "c:\Users\yu033\Documents\Github\ZunTalking\main_flet.py", line 28, in main
+    p_route : page_route = page_route(page)
+                           ^^^^^^^^^^^^^^^^
+  File "c:\Users\yu033\Documents\Github\ZunTalking\page_route.py", line 25, in __init__
+    self.avatar_list.append(Slot(item[1]))
+                            ^^^^^^^^^^^^^
+  File "c:\Users\yu033\Documents\Github\ZunTalking\avatar\slot.py", line 19, in __init__
+    self.avatar_name = slot["CHARA"]["name"]
+                       ~~~~^^^^^^^^^
+  File "C:\Users\yu033\AppData\Local\Programs\Python\Python311\Lib\configparser.py", line 979, in __getitem__
+    raise KeyError(key)
+KeyError: 'CHARA'
+
+2023-11-02 15:11:59.975264
+2023-11-02 15:12:18.569438
+Unhandled error processing page session : Traceback (most recent call last):
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\speech_recognition\__init__.py", line 108, in get_pyaudio
+    import pyaudio
+ModuleNotFoundError: No module named 'pyaudio'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\flet_runtime\app.py", line 359, in on_session_created
+    session_handler(page)
+  File "C:\Users\yu033\Documents\Github\ZunTalking\main_flet.py", line 28, in main
+    p_route : page_route = page_route(page)
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\Documents\Github\ZunTalking\page_route.py", line 35, in __init__
+    self.speech = SpeechRecognizer.SpeechRecognizer()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\Documents\Github\ZunTalking\SpeechRecognizer.py", line 13, in __init__
+    self.mic = sr.Microphone()
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\speech_recognition\__init__.py", line 80, in __init__
+    self.pyaudio_module = self.get_pyaudio()
+                          ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\speech_recognition\__init__.py", line 110, in get_pyaudio
+    raise AttributeError("Could not find PyAudio; check installation")
+AttributeError: Could not find PyAudio; check installation
+
+2023-11-02 15:13:11.704208
+Unhandled error processing page session : Traceback (most recent call last):
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\speech_recognition\__init__.py", line 108, in get_pyaudio
+    import pyaudio
+ModuleNotFoundError: No module named 'pyaudio'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\flet_runtime\app.py", line 359, in on_session_created
+    session_handler(page)
+  File "C:\Users\yu033\Documents\Github\ZunTalking\main_flet.py", line 28, in main
+    p_route : page_route = page_route(page)
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\Documents\Github\ZunTalking\page_route.py", line 35, in __init__
+    self.speech = SpeechRecognizer.SpeechRecognizer()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\Documents\Github\ZunTalking\SpeechRecognizer.py", line 13, in __init__
+    self.mic = sr.Microphone()
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\speech_recognition\__init__.py", line 80, in __init__
+    self.pyaudio_module = self.get_pyaudio()
+                          ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\speech_recognition\__init__.py", line 110, in get_pyaudio
+    raise AttributeError("Could not find PyAudio; check installation")
+AttributeError: Could not find PyAudio; check installation
+
+2023-11-02 15:14:30.204705
+Unhandled error processing page session : Traceback (most recent call last):
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\speech_recognition\__init__.py", line 108, in get_pyaudio
+    import pyaudio
+ModuleNotFoundError: No module named 'pyaudio'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\flet_runtime\app.py", line 359, in on_session_created
+    session_handler(page)
+  File "C:\Users\yu033\Documents\Github\ZunTalking\main_flet.py", line 28, in main
+    p_route : page_route = page_route(page)
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\Documents\Github\ZunTalking\page_route.py", line 35, in __init__
+    self.speech = SpeechRecognizer.SpeechRecognizer()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\Documents\Github\ZunTalking\SpeechRecognizer.py", line 13, in __init__
+    self.mic = sr.Microphone()
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\speech_recognition\__init__.py", line 80, in __init__
+    self.pyaudio_module = self.get_pyaudio()
+                          ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\speech_recognition\__init__.py", line 110, in get_pyaudio
+    raise AttributeError("Could not find PyAudio; check installation")
+AttributeError: Could not find PyAudio; check installation
+
+2023-11-02 15:17:07.313341
+Unhandled error processing page session : Traceback (most recent call last):
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\speech_recognition\__init__.py", line 108, in get_pyaudio
+    import pyaudio
+ModuleNotFoundError: No module named 'pyaudio'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\flet_runtime\app.py", line 359, in on_session_created
+    session_handler(page)
+  File "C:\Users\yu033\Documents\Github\ZunTalking\main_flet.py", line 28, in main
+    p_route : page_route = page_route(page)
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\Documents\Github\ZunTalking\page_route.py", line 35, in __init__
+    self.speech = SpeechRecognizer.SpeechRecognizer()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\Documents\Github\ZunTalking\SpeechRecognizer.py", line 13, in __init__
+    self.mic = sr.Microphone()
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\speech_recognition\__init__.py", line 80, in __init__
+    self.pyaudio_module = self.get_pyaudio()
+                          ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\speech_recognition\__init__.py", line 110, in get_pyaudio
+    raise AttributeError("Could not find PyAudio; check installation")
+AttributeError: Could not find PyAudio; check installation
+
+2023-11-02 15:18:05.314788
+Unhandled error processing page session : Traceback (most recent call last):
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\speech_recognition\__init__.py", line 108, in get_pyaudio
+    import pyaudio
+ModuleNotFoundError: No module named 'pyaudio'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\flet_runtime\app.py", line 359, in on_session_created
+    session_handler(page)
+  File "C:\Users\yu033\Documents\Github\ZunTalking\main_flet.py", line 28, in main
+    p_route : page_route = page_route(page)
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\Documents\Github\ZunTalking\page_route.py", line 35, in __init__
+    self.speech = SpeechRecognizer.SpeechRecognizer()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\Documents\Github\ZunTalking\SpeechRecognizer.py", line 13, in __init__
+    self.mic = sr.Microphone()
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\speech_recognition\__init__.py", line 80, in __init__
+    self.pyaudio_module = self.get_pyaudio()
+                          ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yu033\zuntalking\Lib\site-packages\speech_recognition\__init__.py", line 110, in get_pyaudio
+    raise AttributeError("Could not find PyAudio; check installation")
+AttributeError: Could not find PyAudio; check installation
+
+2023-11-02 15:18:34.930189
+2023-11-02 15:18:56.467712
+2023-11-02 15:21:07.318973
+2023-11-02 15:24:21.827996
+2023-11-02 15:37:39.179762
+2024-01-31 11:03:02.856029
+
+www.google.com [142.251.42.132]に ping を送信しています 32 バイトのデータ:
+142.251.42.132 からの応答: バイト数 =32 時間 =3ms TTL=56
+
+142.251.42.132 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 3ms、最大 = 3ms、平均 = 3ms
+
+www.google.comへのpingが通りました
+Loading all avatars
+Loading all avatars
+Launching AQUESTALK
+Change to つくよみちゃん voice type COEIROINK
+Launching AIVOICE
+Change to 栗田まろん voice type AIVOICE
+Change to ずんだもん voice type VOICEVOX
+Launching COEIROINK
+Change to ずんだもん voice type VOICEVOX
+2024-01-31 11:50:11.706968
+
+www.google.com [142.250.207.4]に ping を送信しています 32 バイトのデータ:
+142.250.207.4 からの応答: バイト数 =32 時間 =4ms TTL=56
+
+142.250.207.4 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 4ms、最大 = 4ms、平均 = 4ms
+
+www.google.comへのpingが通りました
+Loading all avatars
+Loading all avatars
+Voice save to C:\aviutl110\かんしくん\tmp\20240131-115320_ユーザ_私は誰ですか？
+gpt-3.5-turbo calling...
+Voice save to C:\aviutl110\かんしくん\tmp\20240131-115323_ずんだもん_ユーザだのだ！
+VOICEVOX: ずんだもん talking...
+Edit avatar changed to ユーザ
+Edit avatar changed to ずんだもん
+Voice save to C:\aviutl110\かんしくん\tmp\20240131-115642_ユーザ_今日の天気は？
+gpt-3.5-turbo calling...
+Voice save to C:\aviutl110\かんしくん\tmp\20240131-115645_ずんだもん_晴れなのだ！
+VOICEVOX: ずんだもん talking...
+何か話してください...
+マイクオフ
+認識中...
+なので
+音声認識終了
+Voice save to C:\aviutl110\かんしくん\tmp\20240131-120023_ユーザ_なので
+gpt-3.5-turbo calling...
+Voice save to C:\aviutl110\かんしくん\tmp\20240131-120025_ずんだもん_そうなのだ！
+VOICEVOX: ずんだもん talking...
+何か話してください...
+マイクオフ
+認識中...
+こんにちは
+音声認識終了
+Voice save to C:\aviutl110\かんしくん\tmp\20240131-120138_ユーザ_こんにちは
+gpt-3.5-turbo calling...
+Voice save to C:\aviutl110\かんしくん\tmp\20240131-120141_ずんだもん_こんにちはなのだ！
+VOICEVOX: ずんだもん talking...
+Launching AQUESTALK
+Change to ゆっくり霊夢 voice type AQUESTALK
+Change to つくよみちゃん voice type COEIROINK
+Change to 栗田まろん voice type AIVOICE
+Change to つくよみちゃん voice type COEIROINK
+Change to 栗田まろん voice type AIVOICE
+Voice save to C:\aviutl110\かんしくん\tmp\20240131-120252_ユーザ_あなたは？
+gpt-3.5-turbo calling...
+Voice save to C:\aviutl110\かんしくん\tmp\20240131-120255_栗田まろん_私は栗田まろんです！
+A.I.VOICE: 栗田まろん talking...
+Change to つくよみちゃん voice type COEIROINK
+Voice save to C:\aviutl110\かんしくん\tmp\20240131-120306_ユーザ_あなたは？
+gpt-3.5-turbo calling...
+Voice save to C:\aviutl110\かんしくん\tmp\20240131-120323_つくよみちゃん_私はつくよみちゃんで
+COEIROINK: つくよみちゃん talking...
+Launching AQUESTALK
+Change to ゆっくり霊夢 voice type AQUESTALK
+Voice save to C:\aviutl110\かんしくん\tmp\20240131-120351_ユーザ_あなたは？
+gpt-3.5-turbo calling...
+Voice save to C:\aviutl110\かんしくん\tmp\20240131-120352_ゆっくり霊夢_私はゆっくり霊夢だよ
+AquesTalkPlayer: ゆっくり霊夢 talking...
+Change to ずんだもん voice type VOICEVOX
+Launching AQUESTALK
+Change to ゆっくり霊夢 voice type AQUESTALK
+Change to つくよみちゃん voice type COEIROINK
+Change to 栗田まろん voice type AIVOICE
+Change to ずんだもん voice type VOICEVOX
+Edit avatar changed to ずんだもん
+2024-02-01 13:32:42.777908
+
+www.google.com [142.251.222.4]に ping を送信しています 32 バイトのデータ:
+142.251.222.4 からの応答: バイト数 =32 時間 =3ms TTL=56
+
+142.251.222.4 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 3ms、最大 = 3ms、平均 = 3ms
+
+www.google.comへのpingが通りました
+Loading all avatars
+Loading all avatars
+Change to 栗田まろん voice type AIVOICE
+Change to つくよみちゃん voice type COEIROINK
+Launching AQUESTALK
+Change to ゆっくり霊夢 voice type AQUESTALK
+Voice save to C:\aviutl110\かんしくん\tmp\20240201-133258_ユーザ_こんにちは
+gpt-3.5-turbo calling...
+Voice save to C:\aviutl110\かんしくん\tmp\20240201-133300_ゆっくり霊夢_おっ、こんにちは！何
+AquesTalkPlayer: ゆっくり霊夢 talking...
+Edit avatar changed to ゆっくり霊夢
+Edit avatar save to reimu.chr ... Success
+2024-02-01 13:53:35.577486
+
+www.google.com [172.217.175.68]に ping を送信しています 32 バイトのデータ:
+172.217.175.68 からの応答: バイト数 =32 時間 =3ms TTL=56
+
+172.217.175.68 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 3ms、最大 = 3ms、平均 = 3ms
+
+www.google.comへのpingが通りました
+Loading all avatars
+Loading all avatars
+Launching AQUESTALK
+Change to ゆっくり霊夢 voice type AQUESTALK
+Change to つくよみちゃん voice type COEIROINK
+Change to 栗田まろん voice type AIVOICE
+Voice save to C:\aviutl110\かんしくん\tmp\20240201-135349_ユーザ_こんにちは
+gpt-3.5-turbo calling...
+Voice save to C:\aviutl110\かんしくん\tmp\20240201-135351_栗田まろん_こんにちは！まろんで
+A.I.VOICE: 栗田まろん talking...
+Edit avatar changed to つくよみちゃん
+Edit avatar save to tsukuyomichan.chr ... Success
+2024-02-01 14:21:12.050415
+
+www.google.com [216.58.220.100]に ping を送信しています 32 バイトのデータ:
+216.58.220.100 からの応答: バイト数 =32 時間 =9ms TTL=56
+
+216.58.220.100 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 9ms、最大 = 9ms、平均 = 9ms
+
+www.google.comへのpingが通りました
+Loading all avatars
+Loading all avatars
+Change to 栗田まろん voice type AIVOICE
+Change to 松嘩りすく voice type COEIROINK
+Voice save to C:\aviutl110\かんしくん\tmp\20240201-142132_ユーザ_こんにちは
+gpt-3.5-turbo calling...
+Voice save to C:\aviutl110\かんしくん\tmp\20240201-142153_松嘩りすく_こんにちは。ご用件は
+COEIROINK: 松嘩りすく talking...
+Edit avatar changed to 松嘩りすく
+Edit avatar save to tsukuyomichan.chr ... Success
+2024-02-01 14:39:54.202473
+
+www.google.com [172.217.31.132]に ping を送信しています 32 バイトのデータ:
+172.217.31.132 からの応答: バイト数 =32 時間 =2ms TTL=115
+
+172.217.31.132 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 2ms、最大 = 2ms、平均 = 2ms
+
+www.google.comへのpingが通りました
+Loading all avatars
+Loading all avatars
+Change to 栗田まろん voice type AIVOICE
+Change to つくよみちゃん voice type COEIROINK
+Voice save to C:\aviutl110\かんしくん\tmp\20240201-144004_ユーザ_こんにちは
+gpt-3.5-turbo calling...
+Edit avatar changed to 栗田まろん
+Edit avatar changed to つくよみちゃん
+Voice save to C:\aviutl110\かんしくん\tmp\20240201-144024_つくよみちゃん_こんにちは、お元気で
+COEIROINK: つくよみちゃん talking...
+Edit avatar changed to ずんだもん
+Edit avatar save to zundamon.chr ... Success
+2024-02-01 14:48:12.216716
+
+www.google.com [172.217.174.100]に ping を送信しています 32 バイトのデータ:
+172.217.174.100 からの応答: バイト数 =32 時間 =7ms TTL=56
+
+172.217.174.100 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 7ms、最大 = 7ms、平均 = 7ms
+
+www.google.comへのpingが通りました
+Loading all avatars
+Loading all avatars
+Loading all avatars
+Loading all avatars
+Edit avatar changed to ずんだもん
+Loading all avatars
+Launching AQUESTALK
+Change to ゆっくり霊夢 voice type AQUESTALK
+Change to つくよみちゃん voice type COEIROINK
+Change to ずんだもん voice type VOICEVOX
+Change to ずんだもん voice type VOICEVOX
+Launching AQUESTALK
+Change to ゆっくり霊夢 voice type AQUESTALK
+2024-02-01 14:49:22.442844
+
+www.google.com [142.250.207.4]に ping を送信しています 32 バイトのデータ:
+142.250.207.4 からの応答: バイト数 =32 時間 =2ms TTL=56
+
+142.250.207.4 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 2ms、最大 = 2ms、平均 = 2ms
+
+www.google.comへのpingが通りました
+Loading all avatars
+Loading all avatars
+Loading all avatars
+Voice save to C:\aviutl110\かんしくん\tmp\20240201-144931_ユーザ_こんにちは
+gpt-3.5-turbo calling...
+Voice save to C:\aviutl110\かんしくん\tmp\20240201-144934_ずんだもん_こんにちはなのだ！な
+VOICEVOX: ずんだもん talking...
+Loading all avatars
+Edit avatar changed to ずんだもん
+Edit avatar save to zundamon.chr ... Success
+Loading all avatars
+Voice save to C:\aviutl110\かんしくん\tmp\20240201-150331_ユーザ_あなたは？
+gpt-3.5-turbo calling...
+Voice save to C:\aviutl110\かんしくん\tmp\20240201-150334_ずんだもん_ボクはずんだもんなの
+VOICEVOX: ずんだもん talking...
+Change to 栗田まろん voice type AIVOICE
+Change to つくよみちゃん voice type COEIROINK
+Launching AQUESTALK
+Change to ゆっくり霊夢 voice type AQUESTALK
+Change to ずんだもん voice type VOICEVOX
+Loading all avatars
+2024-02-01 15:20:15.174350
+
+www.google.com [216.58.220.100]に ping を送信しています 32 バイトのデータ:
+216.58.220.100 からの応答: バイト数 =32 時間 =2ms TTL=56
+
+216.58.220.100 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 2ms、最大 = 2ms、平均 = 2ms
+
+www.google.comへのpingが通りました
+Loading all avatars
+Loading all avatars
+Loading all avatars
+Loading all avatars
+2024-02-01 15:20:47.735447
+
+www.google.com [216.58.220.100]に ping を送信しています 32 バイトのデータ:
+216.58.220.100 からの応答: バイト数 =32 時間 =273ms TTL=56
+
+216.58.220.100 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 273ms、最大 = 273ms、平均 = 273ms
+
+www.google.comへのpingが通りました
+Loading all avatars
+Loading all avatars
+Loading all avatars
+Loading all avatars
+2024-02-01 15:25:55.905149
+
+www.google.com [172.217.161.36]に ping を送信しています 32 バイトのデータ:
+172.217.161.36 からの応答: バイト数 =32 時間 =6ms TTL=56
+
+172.217.161.36 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 6ms、最大 = 6ms、平均 = 6ms
+
+www.google.comへのpingが通りました
+Loading all avatars
+Loading all avatars
+Loading all avatars
+Loading all avatars
+2024-02-01 15:28:21.994009
+
+www.google.com [142.250.207.4]に ping を送信しています 32 バイトのデータ:
+142.250.207.4 からの応答: バイト数 =32 時間 =2ms TTL=56
+
+142.250.207.4 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 2ms、最大 = 2ms、平均 = 2ms
+
+www.google.comへのpingが通りました
+Loading all avatars
+Loading all avatars
+Loading all avatars
+Loading all avatars
+Loading all avatars
+2024-02-01 15:29:37.725522
+
+www.google.com [142.250.207.4]に ping を送信しています 32 バイトのデータ:
+142.250.207.4 からの応答: バイト数 =32 時間 =238ms TTL=56
+
+142.250.207.4 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 238ms、最大 = 238ms、平均 = 238ms
+
+www.google.comへのpingが通りました
+Loading all avatars
+Loading all avatars
+Loading all avatars
+Loading all avatars
+2024-02-10 14:08:18.003741
+
+www.google.com [2404:6800:4004:81d::2004]に ping を送信しています 32 バイトのデータ:
+2404:6800:4004:81d::2004 からの応答: 時間 =6ms 
+
+2404:6800:4004:81d::2004 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 6ms、最大 = 6ms、平均 = 6ms
+
+www.google.comへのpingが通りました
+Loading all avatars
+Loading all avatars
+2024-02-10 14:43:02.563408
+
+www.google.com [2404:6800:4004:820::2004]に ping を送信しています 32 バイトのデータ:
+2404:6800:4004:820::2004 からの応答: 時間 =4ms 
+
+2404:6800:4004:820::2004 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 4ms、最大 = 4ms、平均 = 4ms
+
+www.google.comへのpingが通りました
+Loading all avatars
+Loading all avatars
+2024-02-10 14:50:29.763521
+
+www.google.com [2404:6800:4004:827::2004]に ping を送信しています 32 バイトのデータ:
+2404:6800:4004:827::2004 からの応答: 時間 =4ms 
+
+2404:6800:4004:827::2004 の ping 統計:
+    パケット数: 送信 = 1、受信 = 1、損失 = 0 (0% の損失)、
+ラウンド トリップの概算時間 (ミリ秒):
+    最小 = 4ms、最大 = 4ms、平均 = 4ms
+
+www.google.comへのpingが通りました
+Loading all avatars
+Loading all avatars
+エラー　天気検索Googleにて　要素が取得できない
+list index out of range
+Unhandled error processing page session : Traceback (most recent call last):
+  File "c:\Users\yu033\Documents\Github\ZunTalking\other\weather.py", line 25, in weather_call_google_location
+    weather_dict["temp"] = elems[1].contents[0] # 気温
+                           ~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\yu033\AppData\Local\Programs\Python\Python311\Lib\site-packages\flet_runtime\app.py", line 363, in on_session_created
+    session_handler(page)
+  File "c:\Users\yu033\Documents\Github\ZunTalking\main.py", line 84, in main
+    view_dict["/weather"] = WeatherView(page)
+                            ^^^^^^^^^^^^^^^^^
+  File "c:\Users\yu033\Documents\Github\ZunTalking\control.py", line 711, in __init__
+    weather_dict = weather.weather_call_google()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\yu033\Documents\Github\ZunTalking\other\weather.py", line 12, in weather_call_google
+    return weather_call_google_location(location, query)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\yu033\Documents\Github\ZunTalking\other\weather.py", line 36, in weather_call_google_location
+    raise Exception()
+Exception
+

@@ -1,0 +1,5 @@
+pyinstaller main.py --onefile --icon=
+
+https://flet.dev/docs/guides/python/packaging-desktop-app/
+flet pack your_program.py --name bundle_name --icon <your-image.png>
+flet pack main.py --add-data "assets;assets" --name zuntalking --icon .\image\icon.jpeg --product-name ZunTalking --file-description ZunTalking --product-version 0.1.0 --file-version 0.1.0 --copyright "u0c8"

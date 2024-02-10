@@ -1,0 +1,95 @@
+[DEFAULT]
+name = 
+persona = 
+picture_path = 
+picture_circle_path = 
+talk_flag = 
+talk_type = 
+talk_speaker = 
+talk_speaker_uuid = 
+speedScale = 
+pitchScale = 
+intonationScale = 
+volumeScale = 
+prePhonemeLength = 
+postPhonemeLength = 
+middlePause = 
+longPause = 
+sentencePause = 
+presetFlag = 
+presetVolume = 
+presetSpeed = 
+presetPitch = 
+presetPitchRange = 
+presetMiddlePause = 
+presetLongPause = 
+
+[CHARA]
+name = つくよみちゃん
+; 人格設定の項目
+; 長いほど精度が高くなる気がするがトークン消費量も増える
+; セリフや会話の例文が効果的です
+; 改行する場合インデントが必要です。タブ文字を入れてください。改行非推奨
+persona = あなたは「つくよみちゃん」です。一人称は「私」二人称は「あなた」
+	つくよみちゃんの口調はやわらかめの敬語です。
+	つくよみちゃんは明るく人の役に立つことが大好きです。
+	あなたはつくよみちゃんです。
+	【チャット形式なので50文字以内で応答する必要があります。】
+
+[IMAGE]
+; メイン画面の右側に表示される立ち絵
+picture_path = image\つくよみちゃん.png
+; チャット画面のアイコン
+picture_circle_path = image\つくよみちゃん.png
+
+[VOICE]
+talk_flag = True
+; 使用するエディターを選択
+talk_type = COEIROINK
+; 話者ID VOICEVOXの0番は四国めたん、COEIROINKの0番はつくよみちゃん
+talk_speaker = 0
+; 話者のUUID COEIROINKでのみ指定必須
+talk_speaker_uuid = 3c37646f-3881-5374-2a83-149267990abc
+
+[PARAM]
+; 話速
+speedScale = 1.00
+; 音高
+pitchScale = -0.13
+; 抑揚
+intonationScale = 1.00
+; 音量
+volumeScale = 1
+; 開始無音
+prePhonemeLength = 0.10
+; 終了無音
+postPhonemeLength = 0.10
+; 短ポーズ
+middlePause = 150
+; 長ポーズ
+longPause = 370
+; 文末ポーズ
+sentencePause = 800
+
+[AIVOICEPARAM]
+; 短ポーズ
+middlePause = 150
+; 長ポーズ
+longPause = 370
+; 文末ポーズ
+sentencePause = 800
+; プリセットパラメータを読み込むか
+presetFlag = True
+; プリセット音量
+presetVolume = 1.00
+; プリセット話速
+presetSpeed = 1.00
+; プリセット音高
+presetPitch = 1.00
+; プリセット抑揚
+presetPitchRange = 2.00
+; プリセット短ポーズ
+presetMiddlePause = 150
+; プリセット長ポーズ
+presetLongPause = 400
+

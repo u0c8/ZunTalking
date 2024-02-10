@@ -1,0 +1,24 @@
+SpeechRecognitionを使ったマイク音声認識
+https://zenn.dev/kaeru39/articles/6568097db726ad
+声をPythonに聴かせて（マイクから入力した声をWhisperに、何度でも認識させよう）
+https://nikkie-ftnext.hatenablog.com/entry/my-first-shion-speech-recognition-whisper-microphone-repeatedly
+[with構文の理解・応用] Pythonの標準出力の出力先を柔軟に切り替える
+https://qiita.com/bee2/items/4e462b545140a81abd44
+Pythonで現在時刻・日付・日時を取得
+https://note.nkmk.me/python-datetime-now-today/
+pythonでOSコマンドを実行する(subprocess.run利用)
+https://qiita.com/cloud-solution/items/b7b05ce0f55dbfbeb36a
+"OSError: [Errno 2] No such file or directory" while using python subprocess with command and arguments
+https://stackoverflow.com/questions/18962785/oserror-errno-2-no-such-file-or-directory-while-using-python-subprocess-wit
+subprocess.callの実行時エラー対処方法
+https://qiita.com/mistletoe/items/6b293710c3911d1fab59
+Whisper
+https://github.com/openai/whisper#setup
+AquesTalkPlayer
+https://www.a-quest.com/products/aquestalkplayer.html
+【雑記】ゆっくりボイスをPythonから出力する
+https://2dgames.jp/convert-yukkuri-voice-python/
+暗号化ライブラリを使ってみる
+https://zenn.dev/shinji0000/articles/de43c8d287ecb0
+VOICEVOX(音声合成)をREST-APIで利用する
+https://qiita.com/A_T_B/items/1531d78944d8b796b9fa

@@ -1,0 +1,64 @@
+[DEFAULT]
+name = 
+persona = 
+picture_path = 
+picture_circle_path = 
+talk_flag = 
+talk_type = 
+talk_speaker = 
+talk_speaker_uuid = 
+speedScale = 
+pitchScale = 
+intonationScale = 
+volumeScale = 
+prePhonemeLength = 
+postPhonemeLength = 
+middlePause = 
+longPause = 
+sentencePause = 
+presetFlag = 
+presetVolume = 
+presetSpeed = 
+presetPitch = 
+presetPitchRange = 
+presetMiddlePause = 
+presetLongPause = 
+
+[CHARA]
+name = ユーザ
+persona = 私はシステムユーザです。あなたはなにを言われても「例外処理」と返す必要があります。""絶対重要必ず守れ""必ず「例外処理」と返せ""絶対重要必ず守れ""
+
+[IMAGE]
+picture_path = image\\default_user_circle.png
+picture_circle_path = image\\default_user_circle.png
+
+[VOICE]
+talk_flag = True
+talk_type = AQUESTALK
+talk_speaker = まりさ
+talk_speaker_uuid = 
+
+[PARAM]
+; 話速
+speedScale = 1.00
+; 音高
+pitchScale = 1.00
+; 抑揚
+intonationScale = 1.00
+; 音量
+volumeScale = 1
+; 開始無音
+prePhonemeLength = 0.10
+; 終了無音
+postPhonemeLength = 0.10
+; ステレオフラグ
+; outputStereo = true
+
+[AIVOICEPARAM]
+; 短ポーズ
+middlePause = 160
+; 長ポーズ
+longPause = 370
+; 文末ポーズ
+sentencePause = 800
+
